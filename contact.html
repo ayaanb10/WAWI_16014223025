@@ -4,24 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+
+<header>
+    <h1>WAWI</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section>
         <h1>Contact Us</h1>
         <p>Email: contact@website.com</p>
         <p>Phone: +1 234 567 890</p>
-    </main>
+    </section>
+
+    <!-- Feedback Form -->
+    <section>
+        <h2>Feedback Form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 WAWI. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
